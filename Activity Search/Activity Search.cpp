@@ -5,8 +5,6 @@ int arr[20]; //array to be searched
 int n;		 //number of elements in the array
 int i;		 //index of array element
 
-
-
 void LinearSearch()
 {
 
@@ -32,6 +30,12 @@ void LinearSearch()
 			}
 			i++;//Step 4
 		}
-		
-	}
+		if (i == n) //step 5
+			cout << "\n" << item << " not found in the array\n";
+		cout << "\nNumber of comparisons: " << ctr << endl;
+
+		cout << "\nContinue search(y/n): ";
+		cin >> ch;
+
+	} while ((ch == 'y') || (ch == 'Y'));
 }
