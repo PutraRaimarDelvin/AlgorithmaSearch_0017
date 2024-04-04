@@ -5,10 +5,19 @@ int arr[20]; //array to be searched
 int n;		 //number of elements in the array
 int i;		 //index of array element
 
-
-int main()
+void LinearSearch()
 {
-	input();
-	LinearSearch();
-	display();
+
+	char ch;
+	int ctr; //number of comparisons
+	int item;
+
+
+
 }
+
+
+
+
+
+
