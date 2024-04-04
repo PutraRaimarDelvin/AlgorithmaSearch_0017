@@ -7,5 +7,9 @@ int i;		 //index of array element
 
 void display()
 {
+	cout << " array element are: ";
+	for (1 = 0; i < n; i++)
+		cout << arr[i] << " ";
+	cout << endl;
 
 }
