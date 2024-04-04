@@ -6,7 +6,6 @@ int n;		 //number of elements in the array
 int i;		 //index of array element
 
 
-
 void LinearSearch()
 {
 
@@ -22,6 +21,7 @@ void LinearSearch()
 
 		ctr = 0;
 		i = 0;// step 2
+		while (i < n) // step 3
 		
 	}
 }
