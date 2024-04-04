@@ -6,6 +6,7 @@ int n;		 //number of elements in the array
 int i;		 //index of array element
 
 
+
 void LinearSearch()
 {
 
@@ -27,7 +28,9 @@ void LinearSearch()
 			if (arr[i] == item)
 			{
 				cout << "\n" << item " found at position " << (i + 1) << endl; //step 6
+				break;
 			}
+			i++;//Step 4
 		}
 		
 	}
